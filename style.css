@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+header{
+   height: 100px;
+    color: whitesmoke;
+    border-bottom: 2px solid white;
+   background-color: black;
+   position: sticky;
+   top: 0;
+    a {
+  color: white;}
+  
+}
+    
+
+
+body{
+    background-color: gold;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+}
+
+}
+
+.branding #highlight{
+    color: goldenrod;
+}
+
+.branding h1{
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+    margin-top
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap:13px;
+    font-size: 15px;
+    padding-top: 10px;
+    justify-content: flex-end;  
+    margin-right: 10px;
+    padding-top: 10px;
+    margin-bottom: 12px;
+    }
+    
+    form{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: 310px;
+    border: 2px solid goldenrod;
+    
+    }
+
+input{
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    color: black;
+}
+
+div h1{
+    text-align: center;
+    
+}
+
+label{
+    font-size: 20px;
+    border: none;
+}
+    
+    
+    
+a{
+    font-size: 22px;
+}
+
+
+.head{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+.box{
+    border-bottom: 3px solid white;
+    
+}
+
+.p1{
+    font-size: 14px;
+    padding: 3px;
+}
+
+.p2{
+    width: 1500px;
+    font-size: 14px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    border-bottom: 1px solid white;
+    flex:1;
+}
+
+.about img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-top-left-radius: 40px;
+}
+
+.container{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: 12px;
+    }
+    
+.about me{
+    background-color: green;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+    gap:20px;
+}
+
+.tech{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+
+button{
+    background-color: goldenrod;
+    border-radius: 8px;
+    
+}
+
+.flex{
+    padding: 5px;
+    margin: 5px;
+}
+
+.product-card{
+    background-color: green;
+    border-radius: 10px;
+    width: 130px;
+}
+
+.product-card img{
+    width: 130px;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+ }
+ 
+ @media( max-width: 1000px){
+ .body{height: auto;
+       width:1000px ;}
+     .about img{1000px}
+ }
